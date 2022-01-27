@@ -1,0 +1,20 @@
+<div class="m-5">
+  <header class="mb-3">
+    <h4>My Todo</h4>
+    <div class="content__wrapper">
+      <input type="text" placeholder="add item" id="new-todo" class="form--custom form-control me-2">
+      <button id="add-btn" class="btn btn-info">Add</button>
+    </div>
+  </header>
+  <!-- 因為主要的的操作皆是透過滑鼠點擊todo跟done區塊，因此考慮新增list-area，為所有列表新增一個區塊統一監聽 -->
+  <div id="list-area">
+    <h4>Todo</h4>
+    <ul id="my-todo" class="list-unstyled">
+      <!-- display todos here -->
+    </ul>
+    <h4>Done</h4>
+    <ul id="done-list" class="list-unstyled">
+      <!-- display done items here -->
+    </ul>
+  </div>
+</div>
